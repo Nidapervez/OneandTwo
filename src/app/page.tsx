@@ -1,5 +1,4 @@
-import Image from "next/image";
-import glogo from "@/glogo.png"; // Adjust the path as necessary
+import Image from "next/image"; // Adjust the path as necessary
 
 import nidapic from "@/nidapic.jpg";
 import Header from "./components/header";
@@ -7,7 +6,7 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <div className="sticky">
         <Header/>
         
@@ -38,6 +37,6 @@ export default function Home() {
         </div>
         <Footer/>
       </div>
-    </>
+    </div>
   );
 }
